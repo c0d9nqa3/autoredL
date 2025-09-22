@@ -89,20 +89,6 @@ AutoRedL is an embedded AI system designed to automatically detect and track hum
 - OpenCV 4.x
 - Required Python packages (see requirements.txt)
 
-## Safety Considerations
-
-### Laser Safety
-- 30mW laser power requires appropriate safety measures
-- Never point laser directly at eyes or reflective surfaces
-- Implement physical and software safety switches
-- Use appropriate laser safety goggles during development
-
-### Electrical Safety
-- Proper voltage regulation to prevent component damage
-- Correct polarity connections for all components
-- Adequate power supply capacity for all connected devices
-- Proper grounding and circuit protection
-
 ## Performance Metrics
 
 ### Detection Performance
