@@ -1,0 +1,31 @@
+camera:
+  resolution: [640, 480]
+  fps: 30
+
+detection:
+  model_path: 'models/yolov5s.onnx'
+  confidence_threshold: 0.5
+  nms_threshold: 0.4
+  input_size: [640, 640]
+
+servo:
+  pan_pin: 18
+  tilt_pin: 19
+  pan_min: -90
+  pan_max: 90
+  tilt_min: -45
+  tilt_max: 45
+  frequency: 50
+
+laser:
+  enable_pin: 20
+  safety_timeout: 5.0
+
+system:
+  save_video: false
+  max_fps: 30
+
+serial:
+  enabled: true
+  port: '/dev/ttyUSB0'
+  baudrate: 115200

@@ -1,0 +1,7 @@
+opencv-python
+numpy
+RPi.GPIO
+onnxruntime
+PyYAML
+loguru
+pyserial
